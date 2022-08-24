@@ -1,4 +1,4 @@
-module Concerns::Spree::Api::V2
+module Spree::Api::V2::CachingDecorator
   Spree::Api::V2::Caching.class_eval do
     extend ActiveSupport::Concern
 
